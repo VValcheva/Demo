@@ -5,10 +5,8 @@ public class UserViewModel {
     private String name;
     private int age;
 
-
-    public UserViewModel(int age) {
+    public UserViewModel(String name, int age) {
+        this.name = name;
         this.age = age;
     }
-
-    
 }
